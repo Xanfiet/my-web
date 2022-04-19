@@ -1,0 +1,23 @@
+  /* this is external while in index.html in the header that is internal and in the body in index.html it is the inline, it prioritises inline then internal then external */
+
+  body {
+    background-color: #F8EDE3;
+  }
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+  }
+  h3 {
+    color: orange; font-size: 18.72px; /*you can add as many types u want the original px for h3 is 18.72px*/
+  }
+  h1 {
+    color: orange;
+  }
+
+  /* by making it none you get rid of the bar as its only 1px with the lines outlining it therefore you must add the height */
+  /* using style here changes every colour you want, example for hr when you select hr for your style you change every hr colour in your code to be the same colour
+  so you wouldnt have to change it every single time when decide to change it */
+  /* also search css border style to find more ways to interact with the code */
